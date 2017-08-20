@@ -1,9 +1,9 @@
 ﻿// IIFE - Immediately Invoked Function Expression
-(function (Main) {
+(function (main) {
     // uncomment to invoke strict mode in this scope
     // 'use strict';
     // The global object is passed as a parameter
-    Main(this.jQuery, this.document, this);
+    main(this.jQuery, this.document, this);
 
     // 'this' is exactly window object
 }).call(this, function ($, document, window, undefined) {
